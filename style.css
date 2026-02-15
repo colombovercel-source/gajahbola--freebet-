@@ -23,7 +23,6 @@ body {
   padding: 16px;
 }
 
-/* Header */
 .top {
   display: flex;
   justify-content: space-between;
@@ -41,7 +40,6 @@ body {
   color: #8dff9a;
 }
 
-/* Card */
 .card {
   background: var(--neutral-dark);
   border-radius: 14px;
@@ -60,7 +58,6 @@ body {
   margin-bottom: 14px;
 }
 
-/* Input */
 .input-group input {
   width: 100%;
   padding: 12px;
@@ -70,11 +67,6 @@ body {
   color: var(--white);
 }
 
-.input-group input::placeholder {
-  color: #7d8aa0;
-}
-
-/* Button */
 button {
   width: 100%;
   margin-top: 14px;
@@ -98,7 +90,6 @@ button:disabled {
   margin-top: 8px;
 }
 
-/* History */
 .history {
   margin-top: 22px;
 }
@@ -123,7 +114,6 @@ button:disabled {
   border-bottom: 1px solid #1f2a38;
 }
 
-/* CS Button */
 .cs-btn {
   display: block;
   margin-top: 18px;
@@ -135,7 +125,6 @@ button:disabled {
   text-decoration: none;
 }
 
-/* Popup */
 .popup {
   position: fixed;
   inset: 0;
