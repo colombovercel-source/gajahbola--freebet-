@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>GAJAHBOLA — Klaim Bonus Member Baru</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">GAJAHBOLA</div>
+    <div class="system-status">🟢 Sistem Aktif</div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h1>Klaim Bonus Member Baru</h1>
+      <p class="subtitle">
+        Bonus khusus pendaftaran baru. Proses aman & tercatat sistem.
+      </p>
+
+      <div class="input-group">
+        <input type="text" id="userId" placeholder="Masukkan User ID" />
+      </div>
+
+      <button id="claimBtn">Cek Bonus</button>
+
+      <p class="note">
+        * Bonus hanya dapat diklaim 1x untuk setiap User ID.
+      </p>
+    </section>
+
+    <section class="history">
+      <h2>🏆 Aktivitas Bonus Terbaru</h2>
+      <div class="history-list" id="historyList"></div>
+    </section>
+
+    <a class="cs-btn" href="https://gajahchampion.com" target="_blank">
+      Hubungi Customer Service
+    </a>
+  </main>
+</div>
+
+<!-- Popup -->
+<div class="popup" id="popup">
+  <div class="popup-box">
+    <div class="badge">SELAMAT</div>
+    <div class="popup-user" id="popupUser"></div>
+    <p class="popup-text">Anda mendapatkan bonus:</p>
+    <div class="popup-prize" id="popupPrize"></div>
+    <div class="popup-time" id="popupTime"></div>
+    <button onclick="closePopup()">Tutup</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
